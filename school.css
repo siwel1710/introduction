@@ -1,0 +1,20 @@
+.head {
+    background-color: aqua;
+    color: crimson;
+}
+#demo{
+    text-align: center;color: chartreuse;
+}
+header{color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+footer{color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+@media (max-width:499px)
+ {
+  body{ 
+    display: flex;
+    flex-direction: column;
+  }  
+  .student, .class, #demo{ width: 100%;}
+}
